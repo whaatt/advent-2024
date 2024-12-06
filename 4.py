@@ -14,7 +14,7 @@ grid = defaultdict(
 )
 
 
-# Part 1
+# Part 1:
 def rays(i, j, t):
     return [
         [(i + dt, j) for dt in range(t)],
@@ -40,7 +40,7 @@ for i in range(rows):
 print(count)
 
 
-# Part 2
+# Part 2:
 def symmetric_diagonals(i, j, t):
     return [
         [(i + dt, j + dt) for dt in range(-t, t + 1)],

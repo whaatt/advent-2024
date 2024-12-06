@@ -6,11 +6,11 @@ import re
 
 message = open("3.txt", "r").read()
 
-# Part 1
+# Part 1:
 pairs = re.findall(r"mul\((\d\d?\d?),(\d\d?\d?)\)", message)
 print(sum(int(pair[0]) * int(pair[1]) for pair in pairs))
 
-# Part 2
+# Part 2:
 items = re.findall(r"(do\(\))|(don't\(\))|mul\((\d\d?\d?),(\d\d?\d?)\)", message)
 enabled = True
 total = 0

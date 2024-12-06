@@ -18,7 +18,7 @@ for ordering in orderings:
         ordering_dict[ordering[i]] = i
     ordering_dicts.append(ordering_dict)
 
-# Part 1
+# Part 1:
 total = 0
 good_rows = set()
 for i in range(len(orderings)):
@@ -37,7 +37,7 @@ for i in range(len(orderings)):
 
 print(total)
 
-# Part 2
+# Part 2:
 i = 0
 total = 0
 while i < len(orderings):
