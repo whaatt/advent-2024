@@ -15,7 +15,7 @@ for r in range(rows):
     for c in range(columns):
         grid[r, c] = int(lines[r][c])
 
-
+# Part 1:
 total = 0
 for r in range(rows):
     for c in range(columns):
@@ -51,6 +51,7 @@ def ways_from(r, c):
     return total
 
 
+# Part 2:
 ways = 0
 for r in range(rows):
     for c in range(columns):

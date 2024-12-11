@@ -6,6 +6,7 @@ from functools import cache
 
 input_value = open("11.txt", "r").read().split("\n")[0]
 
+# Part 1:
 stones = input_value.split(" ")
 for i in range(25):
     new_stones = []
@@ -36,5 +37,6 @@ def count_stones_from(stone, iterations_left):
         return count_stones_from(str(int(stone) * 2024), iterations_left - 1)
 
 
+# Part 2:
 stones = input_value.split(" ")
 print(sum(count_stones_from(stone, 75) for stone in stones))
