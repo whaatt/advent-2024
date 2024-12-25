@@ -65,6 +65,7 @@ def explore_to_end(
                 cheat_savings.append(steps_from_start[neighbor] - current_steps)
 
 
+# Part 1:
 steps_from_start = {}
 cheat_savings = []
 explore_to_end(steps_from_start, cheat_savings, 100, start, 0)
@@ -85,4 +86,5 @@ for cheat_start in steps_from_start:
         if steps_delta - distance_cost >= 100 and distance_cost <= 20:
             good_cheats += 1
 
+# Part 2:
 print(good_cheats)

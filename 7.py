@@ -34,5 +34,8 @@ def get_total(lines, is_part_2):
     return total
 
 
+# Part 1:
 print(get_total(lines, False))
+
+# Part 2:
 print(get_total(lines, True))

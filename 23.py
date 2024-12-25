@@ -2,9 +2,7 @@
 # mypy: ignore-errors
 # flake8: noqa
 
-from collections import Counter, defaultdict, deque
-from functools import cache
-from math import floor
+from collections import defaultdict
 
 input_value = open("23.txt", "r").read()
 lines = input_value.split("\n")

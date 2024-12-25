@@ -3,7 +3,6 @@
 # flake8: noqa
 
 from collections import defaultdict, deque
-from functools import cache
 from math import floor
 
 input_value = open("22.txt", "r").read()

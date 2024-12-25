@@ -32,6 +32,7 @@ for r1, c1 in antennas:
         if grid[anti_2] is not None:
             antinodes.add(anti_2)
 
+# Part 1:
 print(len(antinodes))
 
 antinodes = set()
@@ -55,4 +56,5 @@ for r1, c1 in antennas:
             antinodes.add((r1 + k * dr, c1 + k * dc))
             k -= 1
 
+# Part 2:
 print(len(antinodes))
